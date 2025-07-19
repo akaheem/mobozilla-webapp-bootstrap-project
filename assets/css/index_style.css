@@ -1,0 +1,342 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(247, 249, 251);
+}
+a{
+    text-decoration: none;
+    background-color: white;
+}
+.upbtn{
+    position: sticky;
+    bottom: 10px;
+    right: 1000px;
+}
+.fa-arrow-up{
+    background-color: rgb(196, 216, 224);
+    padding: 20px;
+    border: rgb(196, 216, 224) solid 1px;
+    border-radius: 100%;
+}
+
+.header{
+    width: 100%;
+    /* background-color: red; */
+}
+#slogan{
+    /* width: 100%; */
+    height: 50px;   
+    padding-top:15px;
+    background-color: rgb(237, 289, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(107, 204, 255);
+    font-size: 18px;
+}
+#headerA{
+    margin-right: 50px;
+    display: flex;
+    gap: 10px;
+}
+#slogan a{
+    font-size: 16px;
+    color: rgb(107, 204, 255);
+}
+
+#search{
+    background-color: white;
+    display: flex;
+    align-items:center;
+}
+#search img{
+    margin-left: 80px;
+}
+.img-fluid{
+}
+#searchbtn{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    
+}
+#searchbtn input{
+    width: 70vh;
+    height: 7vh;
+    padding: 5px;
+    border: rgb(232, 232, 232) solid 1px;
+}
+#searchbtn i{
+    color: rgb(107, 204, 255);
+    border: 2px rgb(137, 284, 205) solid;
+    padding: 12px;
+    border-radius: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+#navbar{
+    width: 100%;
+    color: white;
+}
+.carousel-indicators>li{
+    border-radius: 100%;
+    width: 2px;
+    height: 1px;
+    background-color: #404040;
+}
+.mobile-lane-head{
+    width: 100%;
+    height: 100px;
+    color: rgb(128, 194, 236);
+    background: white;
+    line-height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mobile-card{
+    width: 100%;
+    background-color: rgb(247, 249, 251);
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+.card{
+    border: 3px solid rgb(221, 219, 219) !important;
+    text-align: center;
+    /* border: 5px solid rgb(224, 225, 225);mobile-card */
+}
+.card:hover{
+    scale: 1.01;
+    transition: 0.5s;
+    box-shadow: -1px 2px 10px 4px rgba(128, 194, 236,0.64);
+}
+.card i{
+    font-size: 18px;
+}
+#addToCart{
+    background-color: rgb(107, 204, 255);
+    /* margin: 6px 50px; */
+    border-radius: 50px ;
+}
+#owl-carousel{ 
+    background-color: white;
+    /* width: 100%; */
+    /* height: 200px; */
+
+}
+#owlslide{
+    margin-left: 25%;
+    width: 40vw;
+    background-color: #fff;
+}
+.carousel-title h3{
+
+    width: 100%;
+    color: rgb(107, 204, 255);
+    font-size: 64px;
+    font-family:sans-serif;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    line-height: 100px;
+}
+#carouselBrand img{
+    width: 100px;
+    height: 200px;
+}
+#footer-desc{
+    width: 100%;
+    line-height: 30px;
+    background-color: rgb(247, 249, 251);
+    display: flex;
+}
+.footer-custom h2{
+    margin: 20px 0px;
+}
+.footer-custom ul{
+    list-style: none;    
+}
+.footer-custom a{
+    color: black;
+}
+.footer-custom a:hover{
+    text-decoration: none;
+    color: rgb(107, 204, 255);
+}
+.footer-custom i{
+    color: rgb(107, 204, 255);
+    font-size: 18px;
+}
+#brandicon i{
+    font-size: 40px;
+}
+#brandicon h4{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(95, 184, 230);
+    display: flex;
+}
+#footer{
+
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+}
+#footer i{
+    background-color: transparent;
+    font-size: 36px;
+    color: white;
+
+}
+
+
+                                                /* ----MEDAI QUERIES---- */
+                                                /*-------------------- */
+
+
+
+
+
+@media only screen and (max-width: 2560px){
+    
+    #owlslide{
+        width: 70vw;
+        margin-left: 16%;
+    }
+    #addToCart {
+        background-color: rgb(107, 204, 255);
+        margin: 0px 100px;
+}
+
+}
+@media only screen and (max-width: 1024px){
+    #addToCart {
+        background-color: rgb(107, 204, 255);
+        margin: 0px 50px;
+}
+
+}
+
+@media only screen and (min-width: 768px){
+    #nav-disp{
+        display: none;
+    }
+    #navlogo{
+        display: none;
+    }
+    
+    #addToCart {
+        background-color: rgb(107, 204, 255);
+        margin: 0px 5px;
+    }
+}
+
+
+
+@media only screen and (min-width: 576px){
+    #addToCart {
+        background-color: rgb(107, 204, 255);
+        /* margin: 6px 280px; */
+        border-radius: 50px;
+}
+}
+@media only screen and (max-width: 768px){
+    #owlslide{
+        width: 70vw;
+        margin-left: 16%;
+    }
+    .btn{
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 576px)  {
+    #navicon{
+        display:none;
+    }
+    #search{
+        display: none;
+        /* width: 30vh;
+        height: 7vh;
+        padding: 5px;
+        border: rgb(232, 232, 232) solid 1px; */
+    }
+    #carouselBrand img{
+         width: 150px;
+
+    }
+    #slogan{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    #slogan p{
+        /* padding: 0%; */
+        /* margin: 0%; */
+        text-align: center;
+        font-size: 15px;
+
+    }
+    #slogan a{
+        /* margin-left: 10%; */
+        display: none;
+    }
+    .mobile-lane-head{
+        font-size: 12px;
+
+    }
+    .mobile-disp{
+        display: none;
+    }
+    .footer-custom{
+        font-size: 14px;
+        /* padding-bottom: 16px; */
+    }
+    #footer{
+        text-align: center;
+    }
+    #copyright{
+        justify-items: center;
+    }
+    #copyicon{
+        display: none;
+    }
+    #owlslide{
+        margin-left: 4%;
+        width: 100vw;
+    }
+    .carousel-title> h3{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 50px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 425px){
+    #searchbtn{
+        display: none;
+    }
+
+} 

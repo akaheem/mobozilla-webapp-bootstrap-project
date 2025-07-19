@@ -1,0 +1,39 @@
+.main{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    background-color: aqua;
+}
+.mobile-content{
+    width: 100%;
+    background-color: white; 
+    
+}
+#mobile-content{
+    margin-top: 30px;
+    background-color: rgb(247, 249, 251);
+
+}
+#mobile-content h1{
+    font-family: cursive;
+    font-size: 46px;
+    font-weight: 600;
+    color: rgb(107, 204, 255);
+}
+.mobiles{
+    width: 100%;
+    /* height: 100vh; */
+    background-color:white ;
+    float: left;
+}
+#mobile-cards{
+    background-color: rgb(250, 248, 248);
+}
+#mobiles-head{
+    width: 100%;
+    /* height: 80px; */
+    color: rgb(128, 194, 236);
+    background: white;
+    /* line-height: 80px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
